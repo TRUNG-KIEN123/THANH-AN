@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nen
+{
+	width: 100%;
+	height: 1790px;
+	background-color: aliceblue;
+	
+}
+.header
+{
+	width: 100%;
+	height: 375px;
+	background:url("../images/arfan-abdulazeez-oi0FvNhkHy8-unsplash.jpg");
+	background-size: cover;
+}
+
+.header1
+{
+	width: 100%;
+	height: 400px;
+	background-color:#FFF7F7;
+}
+
+.header2
+{
+	width: 100%;
+	height: 600px;
+	background-color:antiquewhite;
+}
+.header3
+{
+	width: 100%;
+	height: 526px;
+	background-color: antiquewhite;
+	box-sizing: border-box;
+	
+	
+}
+.cuoi1
+{
+	width: 100%;
+	height: 50px;
+	background-color: antiquewhite;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20pt;
+	box-sizing: border-box;
+}
+.cuoi
+{
+	width: 450px;
+	height: 500px;
+	padding: 84px;
+	box-sizing: border-box;
+	font-size: 15px;
+	
+}
+
+
+.menu
+{
+	width: 600px;
+	height: 70px;
+	float: right;
+	
+}
+.menu ul
+{
+	list-style: none; 
+	
+}
+.menu ul li:hover
+{
+	background-color: #176F07;
+	
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 4px 40px 7px 32px;
+	background-color: antiquewhite;
+	
+	
+	
+}
+.menu ul li a
+{
+	color:#182C04;
+	text-decoration: none;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+
+ }
+
+
+
+.item
+{
+	width: 100%;
+	height: 400px;
+	background-color:aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	
+}
+ 
+.item1
+{
+	width: 563px;
+	height: 290px;
+	background-color:brown;
+	margin: 20px;
+	float: left;
+	border: 10px;
+	overflow: hidden;
+}
+.hinhvuong
+{
+	width: 625px;
+	height: 450px;
+	background-color:chartreuse;
+	float: right;
+	margin: 75px 50px 0px 0px;
+	
+	background-size: cover;
+	overflow: hidden;
+	
+}
+
+.text
+{
+	width: 460px;
+	height: 400px;
+	float: left;
+	margin: 50px ;
+	margin-top: 190px;
+	padding-right:-50px;
+	box-sizing: border-box;
+	font-size: 11pt;
+ }
+.buynow
+{
+	width: 400%;
+	height: 5px;
+	position: absolute;
+	margin-top: 160px;
+	border-radius: 800%;
+	display: flex;
+	justify-content: center;
+	
+}
+#slideshow
+{
+	overflow: hidden;
+	height: 526px;
+	width: 624px;
+	margin-right:50px ;
+	float: right;
+}
+.slide-wrapper
+{
+	width: 8968px;
+	-webkit-animation:slide 7s ease infinite;
+}
+.slide
+{
+	float: left;
+	height: 726px;
+	width: 624px;
+}
+@-webkit-keyframes slide
+{
+	20% {margin-left: 0px;}
+	30% {margin-left: -624px;} 
+	50% {margin-left: -624px;}
+	60% {margin-left: -1248px;}
+	80% {margin-left: -1872px;}
+}
+button
+{
+	width: 100px;
+	height: 30px;
+	background-color: #C9C9C9;
+	margin-top: 84px;
+}
+
+
+	
+	
